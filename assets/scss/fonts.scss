@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+/*
+	Light 300  Grumpy wizards make toxic brew for the evil Queen and Jack.
+	Light 300 Italic  Grumpy wizards make toxic brew for the evil Queen and Jack.
+	Normal 400  Grumpy wizards make toxic brew for the evil Queen and Jack.
+	Normal 400 Italic  Grumpy wizards make toxic brew for the evil Queen and Jack.
+	Semi-Bold 600  Grumpy wizards make toxic brew for the evil Queen and Jack.
+	Semi-Bold 600 Italic  Grumpy wizards make toxic brew for the evil Queen and Jack.
+	Bold 700  Grumpy wizards make toxic brew for the evil Queen and Jack.
+	Bold 700 Italic  Grumpy wizards make toxic brew for the evil Queen and Jack.
+	Extra-Bold 800  Grumpy wizards make toxic brew for the evil Queen and Jack.
+	Extra-Bold 800 Italic  Grumpy wizards make toxic brew for the
+*/
+
+
+@font-face {
+	font-family: 'fontello';
+	src: url('../fonts/fontello/fontello.eot?41182675');
+	src: url('../fonts/fontello/fontello.eot?41182675#iefix') format('embedded-opentype'),
+		url('../fonts/fontello/fontello.woff?41182675') format('woff'),
+		url('../fonts/fontello/fontello.ttf?41182675') format('truetype'),
+		url('../fonts/fontello/fontello.svg?41182675#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		@font-face {
+			font-family: 'fontello';
+			src: url('../font/fontello.svg?41182675#fontello') format('svg');
+		}
+	}
+*/
+ 
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: "fontello";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	/* opacity: .8; */
+
+	/* For safety - reset parent styles, that can break glyph codes*/
+	font-variant: normal;
+	text-transform: none;
+	 
+	/* fix buttons height, for twitter bootstrap */
+	line-height: 1em;
+
+	/* Animation center compensation - margins should be symmetric */
+	/* remove if not needed */
+	margin-left: .2em;
+
+	/* you can be more comfortable with increased icons size */
+	/* font-size: 120%; */
+
+	/* Uncomment for 3D effect */
+	/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}

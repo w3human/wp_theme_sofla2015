@@ -1,0 +1,178 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "9f7e588c66cfd6891f6f507cf6f6596b",
+      "css": "phone-right",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "757afacc32d82967975cbb3b45cfb41b",
+      "css": "desktop",
+      "code": 59412,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f001fc3d4daa7da078e8c971e4f36977",
+      "css": "tablet",
+      "code": 59416,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "554ee96588a6c9ee632624cd051fe6fc",
+      "css": "chart-pie-1",
+      "code": 59414,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e335adbc2d898c7d85d40c507796e7b4",
+      "css": "mail",
+      "code": 59395,
+      "src": "entypo"
+    },
+    {
+      "uid": "70370693ada58ef0a60fa0984fe8d52a",
+      "css": "plus",
+      "code": 59419,
+      "src": "entypo"
+    },
+    {
+      "uid": "5854855e963044f93b15738a5bb27a29",
+      "css": "phone-left",
+      "code": 59396,
+      "src": "entypo"
+    },
+    {
+      "uid": "8704cd847a47b64265b8bb110c8b4d62",
+      "css": "down-open",
+      "code": 59405,
+      "src": "entypo"
+    },
+    {
+      "uid": "c311c48d79488965b0fab7f9cd12b6b5",
+      "css": "left-open",
+      "code": 59406,
+      "src": "entypo"
+    },
+    {
+      "uid": "749e7d90a9182938180f1d2d8c33584e",
+      "css": "right-open",
+      "code": 59407,
+      "src": "entypo"
+    },
+    {
+      "uid": "9c7ff134960bb5a82404e4aeaab366d9",
+      "css": "up-open",
+      "code": 59409,
+      "src": "entypo"
+    },
+    {
+      "uid": "f11c9e95ae5eaa84d193e8fa1d38c6f9",
+      "css": "down-open-mini",
+      "code": 59408,
+      "src": "entypo"
+    },
+    {
+      "uid": "592717bd601645d61517d2a584d04127",
+      "css": "left-open-mini",
+      "code": 59398,
+      "src": "entypo"
+    },
+    {
+      "uid": "37f6cfbb4062ed0d01b351ec35c334ff",
+      "css": "right-open-mini",
+      "code": 59400,
+      "src": "entypo"
+    },
+    {
+      "uid": "9e251fb8e9e1c71ab09683468e0479a3",
+      "css": "up-open-mini",
+      "code": 59399,
+      "src": "entypo"
+    },
+    {
+      "uid": "289b5f92f23acf1059c93fbf401c1ad5",
+      "css": "down-open-big",
+      "code": 59401,
+      "src": "entypo"
+    },
+    {
+      "uid": "884cfc3e6e2d456dd2a2ca0dbb9e6337",
+      "css": "left-open-big",
+      "code": 59404,
+      "src": "entypo"
+    },
+    {
+      "uid": "004882ab2d5c418c5b2060e80596279b",
+      "css": "right-open-big",
+      "code": 59403,
+      "src": "entypo"
+    },
+    {
+      "uid": "0805cca616b3c12714f35af4d0912c10",
+      "css": "up-open-big",
+      "code": 59402,
+      "src": "entypo"
+    },
+    {
+      "uid": "767fede84586366cd7d6c835be745454",
+      "css": "mobile",
+      "code": 59411,
+      "src": "entypo"
+    },
+    {
+      "uid": "d2c6b59d9a239140cb76be0627480855",
+      "css": "dot",
+      "code": 59417,
+      "src": "entypo"
+    },
+    {
+      "uid": "fb5082fac1794b69a1381196219a836e",
+      "css": "chart-pie",
+      "code": 59413,
+      "src": "entypo"
+    },
+    {
+      "uid": "d090355c31f497b61d676416c1fd39fb",
+      "css": "twitter",
+      "code": 59393,
+      "src": "entypo"
+    },
+    {
+      "uid": "bc50457410acf467b8b5721240768742",
+      "css": "facebook",
+      "code": 59415,
+      "src": "entypo"
+    },
+    {
+      "uid": "b945f4ac2439565661e8e4878e35d379",
+      "css": "gplus",
+      "code": 59392,
+      "src": "entypo"
+    },
+    {
+      "uid": "6a06892e76b81e023da6ddfb38a26b37",
+      "css": "doc-text",
+      "code": 59410,
+      "src": "typicons"
+    },
+    {
+      "uid": "id8wp0cygl9trzbhlbd9o0fygiesi629",
+      "css": "search",
+      "code": 59418,
+      "src": "modernpics"
+    },
+    {
+      "uid": "0636c283a9822288a767609062bbf4a4",
+      "css": "wordpress",
+      "code": 59397,
+      "src": "zocial"
+    }
+  ]
+}

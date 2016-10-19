@@ -1,0 +1,76 @@
+/**
+ * Common mixins
+ */
+
+
+/**
+ * colors 
+ */
+ 
+$color-blue: #146896;
+$color-blue-text: #166696;
+
+$color-blue-footer-text: #0f7fbc;
+
+$color-dark-gray: #383e48;
+$color-light-gray: #eee;
+
+/**
+ * @link https://gist.github.com/garyharan/957284
+ * MODIFIED: spread added
+ */
+@mixin box-shadow ($top, $left, $blur, $spread, $color, $inset: false) 
+{
+	@if $inset {
+		-webkit-box-shadow:inset $top $left $blur $spread $color;
+		-moz-box-shadow:inset $top $left $blur $spread $color;
+		box-shadow:inset $top $left $blur $spread $color;
+	} @else {
+		-webkit-box-shadow: $top $left $blur $spread $color;
+		-moz-box-shadow: $top $left $blur $spread $color;
+		box-shadow: $top $left $blur $spread $color;
+	}
+}
+
+
+
+/**
+ * @link https://gist.github.com/garyharan/957284
+ * MODIFIED: all 4 corners added
+ */
+@mixin border-radius ($top-left: 0.5em, $top-right: $top-left, $bottom-right: $top-left, $bottom-left: $top-left) 
+{
+	-webkit-border-radius: $top-left $top-right $bottom-right $bottom-left;
+	-moz-border-radius:  $top-left $top-right $bottom-right $bottom-left;
+	border-radius:  $top-left $top-right $bottom-right $bottom-left;
+}
+
+
+
+/**
+ * For vertical-aligning elements
+ * Works well with the Bootstrap carousel
+ *
+ * HTML:
+ * <div class="wrapper">
+ *     <div class="content">centered content</div>
+ * </div>
+ *
+ * CSS:
+ * .wrapper {@include vertical-align-wrapper();}
+ * .content {@include vertical-align();}
+ */
+@mixin vertical-align-wrapper()
+{
+	&:before {    /* create a full-height inline block pseudo=element */
+		content: ' ';
+		display: inline-block;
+		vertical-align: middle;  /* vertical alignment of the inline element */
+		height: 100%;
+	}
+}
+
+@mixin vertical-align ()
+{
+	display: inline-block;
+}

@@ -1,0 +1,70 @@
+.shortcode-container{
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	.container-heading{
+		margin-top: 0;
+		padding-top: 0;
+	}
+}
+
+.shortcode-image-block{
+	background-size: cover;
+		
+	color: #fff;
+	
+	font-size: 1.25em;
+	
+	h2{
+		margin: 0;
+		padding: 0;
+		
+		padding-top: 1em;
+	}
+	
+	p{
+		margin: 0;
+		padding: 0;
+		
+		padding: {
+			top: .5em;
+			bottom: .5em;
+		}
+	}
+	
+	img{
+		width: 100%;
+		
+		@media(max-width: $screen-md) {
+			width: 280px;
+			margin: auto;
+			display: block;
+		}
+	}
+	
+	&.paralax-effect{
+		background-attachment: fixed;
+		background-position: top right;
+	}
+}
+
+.shortcode-our-services{
+	.a-service-widget{
+		@media(max-width: $screen-sm) {
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 375px;
+		}
+	}
+}
+
+.shortcode-portfolio-items{
+	.col-portfolio-post.last-and-odd{
+	
+		@media(max-width: $screen-sm-max) {
+			display: none;
+		}
+	}
+}
+
+
